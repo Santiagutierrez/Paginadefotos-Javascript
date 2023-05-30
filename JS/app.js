@@ -22,7 +22,13 @@ productos.forEach((product)=> {
     content.append(comprar);
 
     comprar.addEventListener("click", () =>{
-
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Your work has been saved',
+            showConfirmButton: false,
+            timer: 1500
+          })
     const repeat = carrito.some ((repeatProduct) => repeatProduct.id === product.id);
     
     if (repeat){
