@@ -31,7 +31,7 @@ body{
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4),), url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/08/camara-analogica-kodak-carrete-mochila-parte-trasera-2789603.jpg?tf=1920x");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/08/camara-analogica-kodak-carrete-mochila-parte-trasera-2789603.jpg?tf=1920x");
 }
 .banner-container {
     text-align: center;
